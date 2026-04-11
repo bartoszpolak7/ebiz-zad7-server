@@ -1,13 +1,10 @@
 package io.github.siemamen7
 
 import io.ktor.client.request.*
-import io.ktor.client.statement.*
 import io.ktor.http.*
 import io.ktor.server.testing.*
 import kotlin.test.*
 import io.github.siemamen7.routing.configureRouting
-import io.ktor.serialization.kotlinx.json.*
-import io.ktor.server.plugins.contentnegotiation.*
 
 class ApplicationTest {
     @Test
